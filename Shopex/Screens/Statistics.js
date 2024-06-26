@@ -19,35 +19,3 @@ const styles = StyleSheet.create({
   },
 });
 
-
-```import React, { useContext } from 'react';
-import { View, Text, StyleSheet, ScrollView } from 'react-native';
-import { ThemeContext } from './context/ThemeContext';
-
-const Stat = () => {
-  const { isDarkTheme } = useContext(ThemeContext);
-
-  const styles = StyleSheet.create({
-    container: {
-      flex: 1,
-      backgroundColor: isDarkTheme ? '#000' : '#fff',
-      padding: 20,
-    },
-    section: {
-      marginBottom: 20,
-    },
-    sectionTitle: {
-      fontSize: 18,
-      fontWeight: 'bold',
-      color: isDarkTheme ? '#fff' : '#000',
-      marginBottom: 10,
-    },
-    statItem: {
-      flexDirection: 'row',
-      justifyContent: 'space-between',
-      alignItems: 'center'
-    }
-  })
-}
-
-```
