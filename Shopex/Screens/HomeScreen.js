@@ -126,7 +126,7 @@ const HomeScreen = () => {
         <Image source={require('../assets/profile.png')} style={styles.profileImage} />
         <View style={styles.welcome}>
           <Text style={styles.welcomeText}>Welcome back,</Text>
-          <Text style={styles.username}>Eric Atsu</Text>
+          <Text style={styles.username}>Aggrey Paintsil</Text>
         </View>
         <View style={styles.one}>
           <TouchableOpacity>
